@@ -66,6 +66,16 @@ PURGE = TRUE;
 SELECT * FROM CONSUM_COMPLAINTS_AWS;
 
 
+steps to do the process of uploading bulk data into snowflake:
+
+1. create the database and table in snowflake
+2. open aws and search for s3 (s3 means simple storage) and create one bucket in it with any name 
+3. now upload your csv file in that bucket
+4. now click on your profile above left side in aws and select security credentials
+5. now create your aceess key here you will get 2 keys access key and secret access key
+6. now go to snowflake and create one staging here it asks about 2 keys paste them 
+7. now run the code it will be done 
+
 
 
 
